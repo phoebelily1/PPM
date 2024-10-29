@@ -1,6 +1,13 @@
 % Parameters
              % Distance from the center of mass to the weight (m)
-
+% Parameters
+R = 1;                % Radius of the disk (m)
+c = 0.2;              % Distance of the center of mass from the center (m)
+g = 9.81;             % Acceleration due to gravity (m/s^2)
+m = 1;          % Mass of the disk (kg)
+m_w = 0.1;     % Mass of the weight (kg)
+R_w = 0.1;            % Radius of the weight (m)
+d = 0.3;  
 % Damping coefficient
 b = 0.35;              % Damping coefficient (energy loss)
 
